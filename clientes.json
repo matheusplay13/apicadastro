@@ -1,0 +1,10 @@
+[
+  {
+    "nome": "John Doe",
+    "email": "john.doe@example.com",
+    "cpf": "12345678901",
+    "data_nascimento": "1990-01-01",
+    "bairro": "Centro",
+    "telefone": "1234567890"
+  }
+]
