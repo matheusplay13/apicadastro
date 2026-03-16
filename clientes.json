@@ -1,10 +1,26 @@
 [
   {
-    "nome": "John Doe",
-    "email": "john.doe@example.com",
-    "cpf": "12345678901",
+    "nome": "Lucas roginski de lima",
+    "email": "2",
+    "cpf": "12345678943",
     "data_nascimento": "1990-01-01",
     "bairro": "Centro",
     "telefone": "1234567890"
+  },
+  {
+    "nome": "caetano leitoso",
+    "email": "24",
+    "cpf": "24242424242422424242",
+    "data_nascimento": "1924-01-01",
+    "bairro": "Centro",
+    "telefone": "124242567890"
+  },
+  {
+    "nome": "girafa gay",
+    "email": "24",
+    "cpf": "242243533242",
+    "data_nascimento": "1924-01-01",
+    "bairro": "Centro",
+    "telefone": "124242567890"
   }
 ]
