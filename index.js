@@ -105,4 +105,9 @@ app.post("/produtos", (req, res) => {
     
 }); 
 
+app.get("/produtos", (req, res) => {
+    const produtos = lerProdutos();
+    res.status(200).json(produtos);
+});
+
 
