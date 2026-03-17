@@ -4,5 +4,11 @@
     "nome": "Banana",
     "valor": 2,
     "descrição": "Banana abelha"
+  },
+  {
+    "id": 3,
+    "nome": "Toyota bandeirante",
+    "valor": 150000,
+    "descrição": "Toyota para o lucas andar"
   }
 ]
