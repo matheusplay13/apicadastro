@@ -57,6 +57,15 @@ app.get("/clientes", (req, res) => {
     res.status(200).json(clientes);
 })
 
+app.get("/clientes/:id", (req, res) => {
+    const clientes = lerClientes();
+    const cliente = clientes.find(c => c.id == req.params.id);
+    if (!cliente) {
+        return res.status(404).json({ error: 'Cliente não encontrado' });
+    }
+    res.status(200).json(cliente);
+})
+
 
 
 app.listen(port, () => {
@@ -108,6 +117,15 @@ app.post("/produtos", (req, res) => {
 app.get("/produtos", (req, res) => {
     const produtos = lerProdutos();
     res.status(200).json(produtos);
+});
+
+app.get("/produtos/:id", (req, res) => {
+    const produtos = lerProdutos();
+    const produto = produtos.find(p => p.id == req.params.id);
+    if (!produto) {
+        return res.status(404).json({ error: 'Produto não encontrado' });
+    }
+    res.status(200).json(produto);
 });
 
 
