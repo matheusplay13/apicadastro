@@ -62,3 +62,47 @@ app.get("/clientes", (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+
+const produtosFile = path.join(__dirname, "produtos.json");
+
+function lerProdutos() {
+    
+    if(!fs.existsSync(produtosFile)){
+        return [];
+    }
+    const dados = fs.readFileSync(produtosFile, 'utf8');
+    try{
+        return JSON.parse(dados) || [];
+    } catch (e) {
+        return [];
+    }
+}
+function salvarProdutos(produtos) {
+    fs.writeFileSync(produtosFile, JSON.stringify(produtos, null, 2), 'utf8');
+    
+}
+
+app.post("/produtos", (req, res) => {
+    const {id, nome, valor, descrição} = req.body;
+    if (!id || !nome || !valor || !descrição) {
+        return res.status(400).json({ error:"Todos os campos são obrigatórios"});
+
+    }
+    const produtos = lerProdutos();
+    if (produtos.some(p => p.id === id)) {
+        return res.status(400).json({ error: 'ID já cadastrado' });
+    }
+    const novoProduto = {
+        id,
+        nome,
+        valor,
+        descrição
+    };
+    produtos.push(novoProduto);
+    salvarProdutos(produtos);
+    res.status(201).json({message: 'Produto cadastrado com sucesso', produto: novoProduto});
+    
+}); 
+
+
