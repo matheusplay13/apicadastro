@@ -1,0 +1,16 @@
+[
+  {
+    "codigo": "123",
+    "nome": "Seu Nome",
+    "email": "seu@email.com",
+    "senha": "123456",
+    "data_cadastro": "2026-04-06T11:56:43.382Z"
+  },
+  {
+    "codigo": "1234",
+    "nome": "Kelvis",
+    "email": "kelvis@email.com",
+    "senha": "1234567",
+    "data_cadastro": "2026-04-06T12:00:56.178Z"
+  }
+]

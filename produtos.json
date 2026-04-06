@@ -10,5 +10,23 @@
     "nome": "Toyota bandeirante",
     "valor": 150000,
     "descrição": "Toyota para o lucas andar"
+  },
+  {
+    "id": 4,
+    "nome": "Branca veia",
+    "valor": 150000,
+    "descrição": "Toyota para o lucas andar"
+  },
+  {
+    "id": 27,
+    "nome": "Pneu",
+    "valor": 2,
+    "descrição": "Pneu pra toyota do lucas"
+  },
+  {
+    "id": 32,
+    "nome": "pc",
+    "valor": 2,
+    "descrição": "Computador"
   }
 ]

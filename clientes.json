@@ -22,5 +22,93 @@
     "data_nascimento": "1924-01-01",
     "bairro": "Centro",
     "telefone": "124242567890"
+  },
+  {
+    "nome": "William Santos Farias",
+    "email": "william@gmail.com",
+    "cpf": "12345678947",
+    "data_nascimento": "1999-01-01",
+    "bairro": "Km 25 estrada do cerne",
+    "telefone": "1234567899"
+  },
+  {
+    "nome": "kelvis dobge",
+    "email": "kelvis@gmail.com",
+    "cpf": "12312312354",
+    "data_nascimento": "2026-03-01",
+    "bairro": "bateias",
+    "telefone": "41232234444"
+  },
+  {
+    "nome": "lucas rokis",
+    "email": "lucas@gmail.com",
+    "cpf": "22222222233",
+    "data_nascimento": "2026-03-26",
+    "bairro": "rua 25",
+    "telefone": "4123344455"
+  },
+  {
+    "nome": "lucas vaga",
+    "email": "lucas@gmail.com",
+    "cpf": "12121212121",
+    "data_nascimento": "2026-03-21",
+    "bairro": "bateias",
+    "telefone": "41232633426"
+  },
+  {
+    "nome": "kelvis",
+    "email": "kelvis@gmail.com",
+    "cpf": "11111111111",
+    "data_nascimento": "2026-03-19",
+    "bairro": "bateias",
+    "telefone": "5446464644"
+  },
+  {
+    "nome": "kelvis",
+    "email": "kelvis@gmail.com",
+    "cpf": "13425364455",
+    "data_nascimento": "2026-03-19",
+    "bairro": "bateias",
+    "telefone": "1213313131"
+  },
+  {
+    "nome": "kelvis dobgenski",
+    "email": "kelvis@gmail.com",
+    "cpf": "12342425422",
+    "data_nascimento": "2026-03-02",
+    "bairro": "bateias",
+    "telefone": "4152426624"
+  },
+  {
+    "nome": "kelvis dobgensk",
+    "email": "kelvis@gmail.com",
+    "cpf": "12344334343",
+    "data_nascimento": "2026-03-27",
+    "bairro": "bateias",
+    "telefone": "22424242442"
+  },
+  {
+    "nome": "kelvis dobgenski",
+    "email": "willian@gmail.com",
+    "cpf": "12354367841",
+    "data_nascimento": "2026-04-24",
+    "bairro": "bateias",
+    "telefone": "1836364846"
+  },
+  {
+    "nome": "lucas gay",
+    "email": "lucas.gay@gamil.com",
+    "cpf": "34554365476",
+    "data_nascimento": "2026-04-28",
+    "bairro": "putei",
+    "telefone": "0988753853"
+  },
+  {
+    "nome": "Kelvis Da Luz",
+    "email": "kelvislucaslima@gmail.com",
+    "cpf": "12367892139",
+    "data_nascimento": "2026-04-22",
+    "bairro": "Bateias",
+    "telefone": "41981293821"
   }
 ]
